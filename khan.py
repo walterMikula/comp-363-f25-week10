@@ -125,3 +125,4 @@ if __name__ == "__main__":
     print("DFS sorting of G1:", dfs_topo_sort(G1)[0])
     print("khans sorting of G2:", khan(G2))
     print("DFS sorting of G2:", dfs_topo_sort(G2)[0])
+# 3 and 0 are both source vertices to start, when 3 gets popped, 1 also becomes a source vertex.
